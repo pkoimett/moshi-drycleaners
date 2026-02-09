@@ -2,11 +2,10 @@ services:
   - type: web
     name: moshi-dryclean
     env: node
+    region: oregon
     plan: free
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
-    domains:
-      - moshi-drycleaners.onrender.com
