@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0891b2;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0e7490;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base typography improvements */
+body {
+  @apply antialiased;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+a,
+input,
+textarea,
+select {
+  @apply transition-all duration-200;
+}
+
+/* Custom gradient for hero sections */
+.gradient-primary {
+  @apply bg-gradient-to-br from-primary-600 to-primary-800;
+}
+
+.gradient-secondary {
+  @apply bg-gradient-to-br from-secondary-600 to-secondary-800;
+}
+
+/* Utility for better readability */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary-500;
+}
+
+/* Animation classes */
+@layer components {
+  .card {
+    @apply rounded-lg border border-gray-200 bg-white shadow-sm transition-shadow duration-200 hover:shadow-md;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-lg bg-primary-600 px-4 py-2 font-semibold text-white transition-all duration-200 hover:bg-primary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-lg bg-secondary-600 px-4 py-2 font-semibold text-white transition-all duration-200 hover:bg-secondary-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-500 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center rounded-lg border-2 border-primary-600 px-4 py-2 font-semibold text-primary-600 transition-all duration-200 hover:bg-primary-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .container-safe {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-24 lg:py-32;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    @apply bg-white;
+  }
+
+  button,
+  a[href^="javascript:"] {
+    @apply pointer-events-none;
+  }
+}
