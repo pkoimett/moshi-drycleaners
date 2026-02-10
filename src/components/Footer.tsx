@@ -84,16 +84,16 @@ export default function Footer() {
             <h4 className="mb-4 font-semibold text-gray-900">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>
-                <a href="tel:+254724280818" className="hover:text-primary-600">
-                  +254 724 280 818
+                <a href="tel:+254780610072" className="hover:text-primary-600">
+                  +254 780 610 072
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:pkoimett@gmail.com"
+                  href="mailto:info@moshidrycleaners.co.ke"
                   className="hover:text-primary-600"
                 >
-                  pkoimett@gmail.com
+                  info@moshidrycleaners.co.ke
                 </a>
               </li>
             </ul>

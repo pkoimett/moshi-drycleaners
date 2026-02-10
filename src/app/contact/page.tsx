@@ -29,19 +29,19 @@ export default function ContactPage() {
               <div>
                 <h3 className="mb-2 font-semibold text-gray-900">Phone</h3>
                 <a
-                  href="tel:+254724280818"
+                  href="tel:+254780610072"
                   className="text-primary-600 hover:text-primary-700"
                 >
-                  +254 724 280 818
+                  +254 780 610 072
                 </a>
               </div>
               <div>
                 <h3 className="mb-2 font-semibold text-gray-900">Email</h3>
                 <a
-                  href="mailto:pkoimett@gmail.com"
+                  href="mailto:info@moshidrycleaners.co.ke"
                   className="text-primary-600 hover:text-primary-700"
                 >
-                  pkoimett@gmail.com
+                  info@moshidrycleaners.co.ke
                 </a>
               </div>
               <div>

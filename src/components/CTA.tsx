@@ -21,8 +21,8 @@ export default function CTA() {
           <Link href="/contact" className="btn-primary">
             Contact Us Now
           </Link>
-          <a href="tel:+254724280818" className="btn-outline">
-            Call: +254 724 280 818
+          <a href="tel:+254780610072" className="btn-outline">
+            Call: +254 780 610 072
           </a>
         </div>
       </div>

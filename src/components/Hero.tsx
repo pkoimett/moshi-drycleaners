@@ -2,11 +2,22 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="gradient-primary relative overflow-hidden py-20 text-white sm:py-32 lg:py-40">
-      {/* Background decorative elements */}
+    <section
+      className="relative overflow-hidden py-20 text-white sm:py-32 lg:py-40"
+      style={{
+        backgroundImage: 'url("https://images.unsplash.com/photo-1561053720-76cd73ff22c3?w=1920&q=80")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed",
+      }}
+    >
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-primary-900/70"></div>
+
+      {/* Background decorative elements (optional, can be removed if using image) */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-primary-400 opacity-20 blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-primary-300 opacity-20 blur-3xl"></div>
+        <div className="absolute -right-40 -top-40 h-80 w-80 rounded-full bg-primary-400 opacity-10 blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-primary-300 opacity-10 blur-3xl"></div>
       </div>
 
       <div className="container-safe relative z-10">
