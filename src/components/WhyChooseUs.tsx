@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
       <div className="container-safe">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-4xl font-bold text-gray-900 sm:text-5xl">
-            Why Choose Moshi Dryclean?
+            Why Choose Moshi Drycleaners Limited?
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-600">
             We're committed to delivering exceptional service and results.

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Moshi Dryclean's history, mission, and commitment to excellence.",
+    "Learn about Moshi Drycleaners Limited's history, mission, and commitment to excellence.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
           <div>
             <h1 className="mb-6 text-5xl font-bold text-gray-900">About Us</h1>
             <p className="mb-4 text-lg text-gray-600">
-              Moshi Dryclean is dedicated to providing exceptional dry cleaning
+              Moshi Drycleaners Limited is dedicated to providing exceptional dry cleaning
               and laundry services to our community. With over a decade of
               experience, we've built a reputation for quality, reliability, and
               outstanding customer care.

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "Get in touch with Moshi Dryclean. We're here to help!",
+  description: "Get in touch with Moshi Drycleaners Limited. We're here to help!",
 };
 
 export default function ContactPage() {

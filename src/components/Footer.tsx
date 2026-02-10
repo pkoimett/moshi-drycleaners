@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="mb-4 text-lg font-bold text-gray-900">
-              Moshi Dryclean
+              Moshi Drycleaners Limited
             </h3>
             <p className="text-sm text-gray-600">
               Premium dry cleaning and laundry services with eco-friendly
@@ -104,7 +104,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-gray-200 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm text-gray-600">
-              © 2024 Moshi Dryclean. All rights reserved.
+              © 2024 Moshi Drycleaners Limited. All rights reserved.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-sm text-gray-600 hover:text-primary-600">

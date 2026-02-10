@@ -51,7 +51,7 @@ const nextConfig = {
 
   // Environment variables
   env: {
-    NEXT_PUBLIC_SITE_NAME: "Moshi Dryclean",
+    NEXT_PUBLIC_SITE_NAME: "Moshi Drycleaners Limited",
   },
 
   // Experimental features for better performance

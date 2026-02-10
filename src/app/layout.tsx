@@ -11,8 +11,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Moshi Dryclean | Professional Dry Cleaning Service",
-    template: "%s | Moshi Dryclean",
+    default: "Moshi Drycleaners Limited | Professional Dry Cleaning Service",
+    template: "%s | Moshi Drycleaners Limited",
   },
   description:
     "Premium dry cleaning and laundry services. Fast turnaround, eco-friendly practices, and professional care for your garments.",
@@ -25,17 +25,17 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Moshi Dryclean",
+      name: "Moshi Drycleaners Limited",
       url: "https://moshi-dryclean.com",
     },
   ],
-  creator: "Moshi Dryclean",
+  creator: "Moshi Drycleaners Limited",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://moshi-dryclean.com",
-    siteName: "Moshi Dryclean",
-    title: "Moshi Dryclean | Professional Dry Cleaning Service",
+    siteName: "Moshi Drycleaners Limited",
+    title: "Moshi Drycleaners Limited | Professional Dry Cleaning Service",
     description:
       "Premium dry cleaning and laundry services with eco-friendly practices.",
     images: [
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
         url: "https://moshi-dryclean.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Moshi Dryclean",
+        alt: "Moshi Drycleaners Limited",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moshi Dryclean | Professional Dry Cleaning Service",
+    title: "Moshi Drycleaners Limited | Professional Dry Cleaning Service",
     description:
       "Premium dry cleaning and laundry services with eco-friendly practices.",
     images: ["https://moshi-dryclean.com/og-image.jpg"],
